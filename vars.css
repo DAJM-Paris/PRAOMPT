@@ -1,0 +1,214 @@
+/* Figma Styles of your File */
+:root {
+  /* Colors */
+  --niveaudegris-blanc: #ffffff;
+  --niveaudegris-nuance-0: #fafafa;
+  --niveaudegris-nuance-1: #f3f3f2;
+  --niveaudegris-nuance-2: #c2c2c2;
+  --niveaudegris-nuance-3: #9c9c9b;
+  --niveaudegris-nuance-4: #7c7c7c;
+  --niveaudegris-nuance-5: #646463;
+  --niveaudegris-nuance-6: #50504f;
+  --niveaudegris-nuance-7: #1c1c1c;
+  --primaire-light-beige: #f7f3eb;
+  --primaire-light-orange: #ffb147;
+  --primaire-light-turquoise: #48ddc9;
+  --primaire-dark-beige-nuance-0: #dedad3;
+  --primaire-dark-beige-nuance-1: #c4c1bb;
+  --primaire-dark-beige-nuance-2: #aba8a3;
+  --primaire-dark-beige-nuance-3: #918f8a;
+  --primaire-dark-beige-nuance-4: #787672;
+  --primaire-dark-beige-nuance-5: #5e5d5a;
+  --primaire-dark-beige-nuance-6: #454442;
+  --primaire-dark-turquoise-nuance-0: #e6f2f1;
+  --primaire-dark-turquoise-nuance-1: #3ab3a3;
+  --primaire-dark-turquoise-nuance-2: #2f9184;
+  --primaire-dark-turquoise-nuance-3: #26746a;
+  --primaire-dark-turquoise-nuance-4: #1e5d54;
+  --primaire-dark-turquoise-nuance-5: #184a44;
+  --primaire-dark-turquoise-nuance-6: #10322e;
+  --primaire-dark-orange-nuance-1: #c27b1c;
+  --primaire-dark-orange-nuance-2: #9d6416;
+  --primaire-dark-orange-nuance-3: #7e5012;
+  --primaire-dark-orange-nuance-4: #64400e;
+  --primaire-dark-orange-nuance-5: #362208;
+  --secondaire-light-jaune: #ffe047;
+  --secondaire-light-rouge: #ff7a7a;
+  --secondaire-light-violet: #bd88f2;
+  --secondaire-light-bleuklein: #2e77ff;
+  --secondaire-light-indigo: #8888f2;
+  --secondaire-dark-bleu-nuance-1: #0047cc;
+  --secondaire-dark-bleu-nuance-2: #003aa8;
+  --secondaire-dark-bleu-nuance-3: #011163;
+  --secondaire-dark-bleu-nuance-5: #010b41;
+  --secondaire-dark-bleu-nuance-4: #010e50;
+  --secondaire-dark-indigo-nuance-1: #6d6dc2;
+  --secondaire-dark-indigo-nuance-2: #57579b;
+  --secondaire-dark-indigo-nuance-3: #312782;
+  --secondaire-dark-indigo-nuance-4: #271f68;
+  --secondaire-dark-indigo-nuance-5: #1f1953;
+  --secondaire-dark-jaune-nuance-1: #ccb339;
+  --secondaire-dark-jaune-nuance-2: #a38f2d;
+  --secondaire-dark-jaune-nuance-3: #837324;
+  --secondaire-dark-jaune-nuance-4: #685c1d;
+  --secondaire-dark-jaune-nuance-5: #544917;
+  --secondaire-dark-rouge-nuance-1: #cc6262;
+  --secondaire-dark-rouge-nuance-2: #a34e4e;
+  --secondaire-dark-rouge-nuance-3: #823e3e;
+  --secondaire-dark-rouge-nuance-4: #683232;
+  --secondaire-dark-rouge-nuance-5: #452121;
+  --secondaire-dark-violet-nuance-1: #976dc2;
+  --secondaire-dark-violet-nuance-2: #79579b;
+  --secondaire-dark-violet-nuance-4: #3e2d4f;
+  --secondaire-dark-violet-nuance-5: #32243f;
+  --secondaire-dark-violet-nuance-3: #4d3863;
+  --degrade-jaune-rouge: linear-gradient(
+    -80.54deg,
+    rgba(255, 122, 122, 1) 0%,
+    rgba(255, 224, 71, 1) 100%
+  );
+  --degrade-orange-turquoise: linear-gradient(
+    -80.54deg,
+    rgba(72, 221, 201, 1) 0%,
+    rgba(255, 177, 71, 1) 100%
+  );
+  --pattern-arcenciel: linear-gradient(to left, #184a44, #184a44);
+  --pattern-wind: linear-gradient(to left, #184a44, #184a44);
+  --pattern-triangle: linear-gradient(to left, #184a44, #184a44);
+  --pattern-vague: linear-gradient(to left, #184a44, #184a44);
+  --pattern-boules: linear-gradient(to left, #184a44, #184a44);
+  --pattern-diagonal: linear-gradient(to left, #184a44, #184a44);
+  --pattern-topographie: linear-gradient(to left, #184a44, #184a44);
+  --pattern-topographie-blanc: linear-gradient(to left, #fafafa, #fafafa);
+  --dajm-paris-github-io-firefly: #10322e;
+  --dajm-paris-github-io-ecru-white: #f7f3eb;
+  --dajm-paris-github-io-blue-dianne: #184a44;
+  --dajm-paris-github-io-keppel: #3ab3a3;
+  --dajm-paris-github-io-black: #000000;
+  --dajm-paris-github-io-japanese-laurel: #0075ff;
+  --dajm-paris-github-io-turquoise: #48ddc9;
+  --dajm-paris-github-io-nero: #ffffff;
+  --dajm-paris-github-io-malachite: #ffe047;
+  --dajm-paris-github-io-paradiso: #26746a;
+
+  /* Fonts */
+  --titres-desktop-surtitre-h-1: 400 20px/20px "Montserrat", sans-serif;
+  --titres-desktop-surtitre-h-2: 500 14px/14px "Montserrat", sans-serif;
+  --titres-desktop-surtitre-h-3: 500 12px/12px "Montserrat", sans-serif;
+  --titres-desktop-surtitre-h-4: 500 10px/10px "Montserrat", sans-serif;
+  --titres-desktop-h-1-light: 200 64px/64px "Montserrat", sans-serif;
+  --titres-desktop-h-1-italic: 500 italic 64px/64px "Montserrat", sans-serif;
+  --titres-desktop-h-2-light-cap: 200 56px/56px "Montserrat", sans-serif;
+  --titres-desktop-h-2-italic: 500 italic 56px/56px "Montserrat", sans-serif;
+  --titres-desktop-h-2-light-min: 200 56px/56px "Montserrat", sans-serif;
+  --titres-desktop-h-3-light-cap: 200 48px/48px "Montserrat", sans-serif;
+  --titres-desktop-h-3-italic-cap: 500 italic 48px/48px "Montserrat", sans-serif;
+  --titres-desktop-h-3-italic-min: 500 italic 48px/48px "Montserrat", sans-serif;
+  --titres-desktop-h-4-light: 200 40px/40px "Montserrat", sans-serif;
+  --titres-desktop-h-4-italic-min: 500 italic 40px/40px "Montserrat", sans-serif;
+  --titres-desktop-h-4-italic-cap: 500 italic 40px/40px "Montserrat", sans-serif;
+  --titres-desktop-h-5-light-cap: 300 24px/24px "Montserrat", sans-serif;
+  --titres-desktop-h-5-light-min: 300 24px/24px "Montserrat", sans-serif;
+  --titres-desktop-h-5-italic-cap: 500 italic 24px/24px "Montserrat", sans-serif;
+  --titres-desktop-h-5-bold-cap: 700 24px/24px "Montserrat", sans-serif;
+  --titres-desktop-h-5-bold-min: 700 24px/28px "Montserrat", sans-serif;
+  --titres-desktop-h-5-italic-cap: 500 italic 24px/28px "Montserrat", sans-serif;
+  --titres-desktop-h-5-italic-min: 500 italic 24px/28px "Montserrat", sans-serif;
+  --titres-desktop-h-6-light: 300 16px/16px "Montserrat", sans-serif;
+  --titres-desktop-h-6-italic-cap: 500 italic 16px/16px "Montserrat", sans-serif;
+  --titres-desktop-h-6-bold: 700 16px/16px "Montserrat", sans-serif;
+  --titres-desktop-sous-titre-h-1: 500 40px/56px "Montserrat", sans-serif;
+  --titres-desktop-sous-titres-h-2: 500 32px/48px "Montserrat", sans-serif;
+  --titres-desktop-sous-titre-h-3: 500 32px/48px "Montserrat", sans-serif;
+  --titres-desktop-sous-titre-h-4: 500 24px/40px "Montserrat", sans-serif;
+  --titres-desktop-sous-titre-h-5: 500 16px/24px "Montserrat", sans-serif;
+  --titres-desktop-sous-titre-h-6: 500 10px/24px "Montserrat", sans-serif;
+  --titres-desktop-h-6-italic-min: 500 italic 18px/22px "Montserrat", sans-serif;
+  --titres-mobile-surtitre-h-1: 500 16px/16px "Montserrat", sans-serif;
+  --titres-mobile-surtitre-h-2: 400 16px/24px "Montserrat", sans-serif;
+  --titres-mobile-surtitre-h-3: 500 16px/24px "Montserrat", sans-serif;
+  --titres-mobile-surtitre-h-4: 500 10px/10px "Montserrat", sans-serif;
+  --titres-mobile-h-1-light: 200 48px/48px "Montserrat", sans-serif;
+  --titres-mobile-h-1-italic: 500 italic 48px/48px "Montserrat", sans-serif;
+  --titres-mobile-h-2-light: 200 40px/40px "Montserrat", sans-serif;
+  --titres-mobile-h-2-italic: 500 italic 40px/40px "Montserrat", sans-serif;
+  --titres-mobile-h-3-light-cap: 300 32px/32px "Montserrat", sans-serif;
+  --titres-mobile-h-3-italic-cap: 500 italic 32px/32px "Montserrat", sans-serif;
+  --titres-mobile-h-3-italc-min: 500 italic 32px/32px "Montserrat", sans-serif;
+  --titres-mobile-h-3-light-min: 200 48px/48px "Montserrat", sans-serif;
+  --titres-mobile-h-4-light: 300 28px/28px "Montserrat", sans-serif;
+  --titres-mobile-h-4-italic-min: 500 italic 28px/28px "Montserrat", sans-serif;
+  --titres-mobile-h-4-italic-cap: 500 italic 28px/28px "Montserrat", sans-serif;
+  --titres-mobile-h-5-light-min: 400 24px/24px "Montserrat", sans-serif;
+  --titres-mobile-h-5-light-cap: 300 24px/24px "Montserrat", sans-serif;
+  --titres-mobile-h-5-italic-cap: 500 italic 24px/24px "Montserrat", sans-serif;
+  --titres-mobile-h-5-italic-min: 500 italic 24px/30px "Montserrat", sans-serif;
+  --titres-mobile-h-5-bold: 700 24px/24px "Montserrat", sans-serif;
+  --titres-mobile-h-6-bold: 700 18px/18px "Montserrat", sans-serif;
+  --titres-mobile-h-6-italic-cap: 500 italic 18px/18px "Montserrat", sans-serif;
+  --titres-mobile-h-6-light-cap: 400 16px/16px "Montserrat", sans-serif;
+  --editorial-desktop-chapo-h-1: 400 18px/34px "Montserrat", sans-serif;
+  --editorial-desktop-chapo-h-1-bold: 700 18px/34px "Montserrat", sans-serif;
+  --editorial-desktop-chapo-h-2: 400 16px/22px "Montserrat", sans-serif;
+  --editorial-desktop-chapo-h-2-bold: 700 18px/28px "Montserrat", sans-serif;
+  --editorial-desktop-paragraphe-16-light: 400 14px/22px "Montserrat",
+    sans-serif;
+  --editorial-desktop-paragraphe-16-bold: 700 14px/22px "Montserrat", sans-serif;
+  --editorial-desktop-paragraphe-14-light: 400 12px/16px "Montserrat",
+    sans-serif;
+  --editorial-desktop-paragraphe-14-bold: 700 12px/16px "Montserrat", sans-serif;
+  --editorial-desktop-chiffre-cl-32: 700 24px/24px "Montserrat", sans-serif;
+  --editorial-desktop-chiffre-cl-64: 700 56px/56px "Montserrat", sans-serif;
+  --editorial-desktop-verbatim-18: 400 italic 18px/30px "Montserrat", sans-serif;
+  --editorial-desktop-verbatiom-18: 400 italic 16px/30px "Montserrat",
+    sans-serif;
+  --editorial-desktop-l-gendes: 400 12px/12px "Montserrat", sans-serif;
+  --editorial-desktop-description-light: 400 14px/22px "Montserrat", sans-serif;
+  --editorial-desktop-description-bold: 700 14px/20px "Montserrat", sans-serif;
+  --editorial-mobile-chapo-h-1: 400 18px/28px "Montserrat", sans-serif;
+  --editorial-mobile-chapo-h-1-bold: 700 24px/40px "Montserrat", sans-serif;
+  --editorial-mobile-chapo-h-2: 400 16px/24px "Montserrat", sans-serif;
+  --editorial-mobile-paragraphe-light: 400 14px/22px "Montserrat", sans-serif;
+  --editorial-mobile-paragraphe-bold: 700 14px/22px "Montserrat", sans-serif;
+  --editorial-mobile-chiffre-cl: 700 32px/32px "Montserrat", sans-serif;
+  --editorial-mobile-verbatim: 400 italic 24px/32px "Montserrat", sans-serif;
+  --editorial-mobile-l-gendes: 400 14px/14px "Montserrat", sans-serif;
+  --editorial-mobile-description-bold: 700 14px/18px "Montserrat", sans-serif;
+  --editorial-mobile-description-light: 400 12px/16px "Montserrat", sans-serif;
+  --system-style: 700 32px/52px "Montserrat", sans-serif;
+  --microcopie-desktop-bouton-light: 400 12px/12px "Montserrat", sans-serif;
+  --microcopie-desktop-boutonbold: 700 12px/12px "Montserrat", sans-serif;
+  --microcopie-desktop-bandeau-information: 500 14px/20px "Montserrat",
+    sans-serif;
+  --microcopie-desktop-label-filtre: 500 14px/14px "Montserrat", sans-serif;
+  --microcopie-desktop-label-formulaire: 500 10px/10px "Montserrat", sans-serif;
+  --microcopie-desktop-imput-formulaire: 400 italic 12px/12px "Montserrat",
+    sans-serif;
+  --microcopie-desktop-url: 700 14px/22px "Montserrat", sans-serif;
+  --microcopie-desktop-imput-formulaire-on: 700 16px/18px "Montserrat",
+    sans-serif;
+  --microcopie-desktop-nom-page-sommarie: 400 22px/26px "Montserrat", sans-serif;
+  --microcopie-mobile-bouton-light: 400 12px/12px "Montserrat", sans-serif;
+  --microcopie-mobile-bouton-bold: 700 12px/12px "Montserrat", sans-serif;
+  --microcopie-mobile-ancre: 700 14px/14px "Montserrat", sans-serif;
+  --microcopie-mobile-bandeau: 500 14px/20px "Montserrat", sans-serif;
+  --microcopie-mobile-label-filtre: 500 10px/10px "Montserrat", sans-serif;
+  --microcopie-mobile-label-formulaire: 700 10px/10px "Montserrat", sans-serif;
+  --microcopie-mobile-imput-formulaire: 400 italic 14px/16px "Montserrat",
+    sans-serif;
+  --microcopie-mobile-url: 700 16px/24px "Montserrat", sans-serif;
+  --microcopie-mobile-imput-formulaire-on: 400 14px/14px "Montserrat",
+    sans-serif;
+  --dajm-paris-github-io-gill-sans-bold-italic-32: 700 italic 32px "Gill Sans",
+    sans-serif;
+  --dajm-paris-github-io-arial-regular-12: 400 12px "Arial", sans-serif;
+  --dajm-paris-github-io-arial-regular-13-33: 400 13.33px "Arial", sans-serif;
+  --dajm-paris-github-io-arial-regular-16: 400 16px "Arial", sans-serif;
+
+  /* Effects */
+  --blur-filter: blur(16px);
+  --drop-shadow-box-shadow: 0px 0px 24px 0px rgba(16, 50, 46, 1);
+  --layer-blur-filter: blur(4px);
+  --background-blur-backdrop-filter: blur(10px);
+  --drop-shadow-box-shadow: 0px 0px 60px 0px rgba(24, 74, 68, 0.2);
+}

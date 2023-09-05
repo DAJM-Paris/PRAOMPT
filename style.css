@@ -1,0 +1,1459 @@
+.praompt-1,
+.praompt-1 * {
+  box-sizing: border-box;
+}
+.praompt-1 {
+  background: var(--primaire-dark-turquoise-nuance-6, #10322e);
+  padding: 0px 0px 0px 280px;
+  width: 1512px;
+  height: 844px;
+  position: relative;
+  overflow: hidden;
+}
+.titre-h-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 178px;
+  top: 65px;
+}
+.jean-michel {
+  color: var(--primaire-light-beige, #f7f3eb);
+  text-align: left;
+  font: var(--titres-desktop-h-1-light, 200 64px/64px "Montserrat", sans-serif);
+  text-transform: uppercase;
+  position: relative;
+}
+.fast-ao {
+  color: var(--primaire-light-beige, #f7f3eb);
+  text-align: left;
+  font: var(
+    --titres-desktop-h-1-italic,
+    500 italic 64px/64px "Montserrat",
+    sans-serif
+  );
+  text-transform: uppercase;
+  position: relative;
+}
+.slider-phases {
+  width: 1334px;
+  height: 456px;
+  position: absolute;
+  left: 178px;
+  top: calc(50% - 142px);
+}
+.phase-01 {
+  width: 565px;
+  height: 338px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.line-full {
+  border-style: solid;
+  border-color: var(--secondaire-light-jaune, #ffe047);
+  border-width: 2px 0 0 0;
+  width: 615px;
+  height: 0px;
+  position: absolute;
+  left: 70px;
+  top: calc(50% - 149px);
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+.step-1 {
+  background: var(--secondaire-light-jaune, #ffe047);
+  border-radius: 232px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+._1 {
+  color: var(--primaire-dark-turquoise-nuance-6, #10322e);
+  text-align: left;
+  font: var(
+    --editorial-desktop-chiffre-cl-32,
+    700 24px/24px "Montserrat",
+    sans-serif
+  );
+  text-transform: uppercase;
+  position: relative;
+}
+.titre-line-1 {
+  width: 164px;
+  height: 40px;
+  position: absolute;
+  left: 0px;
+  top: 72px;
+}
+.phase-1 {
+  color: var(--primaire-light-beige, #f7f3eb);
+  text-align: left;
+  font: var(--titres-desktop-h-4-light, 200 40px/40px "Montserrat", sans-serif);
+  text-transform: uppercase;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.titre-line-2 {
+  width: 462px;
+  height: 40px;
+  position: absolute;
+  left: 0px;
+  top: 112px;
+}
+.set-up-pr-liminaire {
+  color: var(--primaire-light-beige, #f7f3eb);
+  text-align: left;
+  font: var(
+    --titres-desktop-h-4-italic-cap,
+    500 italic 40px/40px "Montserrat",
+    sans-serif
+  );
+  text-transform: uppercase;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.descr {
+  width: 565px;
+  height: 74px;
+  position: absolute;
+  left: 0px;
+  top: 184px;
+}
+.phase-permettant-de-poser-les-bases-de-la-mission-clique-sur-copier-et-coller-dans-une-nouvelle-conversation-avec-jean-michel-une-fois-la-r-ponse-crite-passe-la-phase-2 {
+  color: var(--primaire-light-beige, #f7f3eb);
+  text-align: left;
+  font: var(
+    --editorial-desktop-chapo-h-2,
+    400 16px/22px "Montserrat",
+    sans-serif
+  );
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 565px;
+}
+.bouton-copy {
+  background: #ffe047;
+  border-radius: 64px;
+  padding: 10px 16px 10px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  justify-content: flex-end;
+  width: 194px;
+  height: 40px;
+  position: absolute;
+  left: 0px;
+  top: 290px;
+  overflow: hidden;
+}
+.label-bouton {
+  flex-shrink: 0;
+  width: 126px;
+  height: 12px;
+  position: relative;
+}
+.copier-le-prompt {
+  color: #10322e;
+  text-align: left;
+  font: var(
+    --microcopie-desktop-boutonbold,
+    700 12px/12px "Montserrat",
+    sans-serif
+  );
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.arrow {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.phase-02 {
+  opacity: 0.4000000059604645;
+  width: 565px;
+  height: 338px;
+  position: absolute;
+  left: 685px;
+  top: 0px;
+}
+.step-2 {
+  background: var(--secondaire-light-jaune, #ffe047);
+  border-radius: 232px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+._2 {
+  color: var(--primaire-dark-turquoise-nuance-6, #10322e);
+  text-align: left;
+  font: var(
+    --editorial-desktop-chiffre-cl-32,
+    700 24px/24px "Montserrat",
+    sans-serif
+  );
+  text-transform: uppercase;
+  position: relative;
+}
+.line-dash {
+  border-style: dashed;
+  border-color: var(--secondaire-light-jaune, #ffe047);
+  border-width: 2px 0 0 0;
+  width: 615px;
+  height: 0px;
+  position: absolute;
+  left: 70px;
+  top: calc(50% - 149px);
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+.titre-line-12 {
+  color: var(--primaire-light-beige, #f7f3eb);
+  text-align: left;
+  font: var(--titres-desktop-h-4-light, 200 40px/40px "Montserrat", sans-serif);
+  text-transform: uppercase;
+  position: absolute;
+  left: 0px;
+  top: 72px;
+}
+.titre-line-22 {
+  width: 378px;
+  height: 40px;
+  position: absolute;
+  left: 0px;
+  top: 112px;
+}
+.set-up-liminaire {
+  color: var(--primaire-light-beige, #f7f3eb);
+  text-align: left;
+  font: var(
+    --titres-desktop-h-4-italic-cap,
+    500 italic 40px/40px "Montserrat",
+    sans-serif
+  );
+  text-transform: uppercase;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.pr-cise-qui-nous-sommes-et-nos-expertises-clique-sur-copier-et-coller-dans-une-nouvelle-conversation-avec-jean-michel-une-fois-la-r-ponse-crite-passe-la-phase-3 {
+  color: var(--primaire-light-beige, #f7f3eb);
+  text-align: left;
+  font: var(
+    --editorial-desktop-chapo-h-2,
+    400 16px/22px "Montserrat",
+    sans-serif
+  );
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 565px;
+}
+.arrow2 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.phase-03 {
+  opacity: 0.4000000059604645;
+  width: 565px;
+  height: 368px;
+  position: absolute;
+  left: 1370px;
+  top: 0px;
+}
+.step-3 {
+  background: var(--secondaire-light-jaune, #ffe047);
+  border-radius: 232px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+._3 {
+  color: var(--primaire-dark-turquoise-nuance-6, #10322e);
+  text-align: left;
+  font: var(
+    --editorial-desktop-chiffre-cl-32,
+    700 24px/24px "Montserrat",
+    sans-serif
+  );
+  text-transform: uppercase;
+  position: relative;
+}
+.line-dash2 {
+  border-style: dashed;
+  border-color: var(--secondaire-light-jaune, #ffe047);
+  border-width: 2px 0 0 0;
+  width: 615px;
+  height: 0px;
+  position: absolute;
+  left: 70px;
+  top: calc(50% - 164px);
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+.titre-line-13 {
+  width: 172px;
+  height: 40px;
+  position: absolute;
+  left: 0px;
+  top: 72px;
+}
+.phase-3 {
+  color: var(--primaire-light-beige, #f7f3eb);
+  text-align: left;
+  font: var(--titres-desktop-h-4-light, 200 40px/40px "Montserrat", sans-serif);
+  text-transform: uppercase;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.titre-line-23 {
+  width: 322px;
+  height: 40px;
+  position: absolute;
+  left: 0px;
+  top: 112px;
+}
+.set-up-projet {
+  color: var(--primaire-light-beige, #f7f3eb);
+  text-align: left;
+  font: var(
+    --titres-desktop-h-4-italic-cap,
+    500 italic 40px/40px "Montserrat",
+    sans-serif
+  );
+  text-transform: uppercase;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.descr2 {
+  width: 565px;
+  height: 104px;
+  position: absolute;
+  left: 0px;
+  top: 184px;
+}
+.pr-cise-la-structure-du-projet-clique-sur-copier-et-coller-dans-une-nouvelle-conversation-avec-jean-michel-une-fois-la-r-ponse-crite-passe-la-phase-4 {
+  color: var(--primaire-light-beige, #f7f3eb);
+  text-align: left;
+  font: var(
+    --editorial-desktop-chapo-h-2,
+    400 16px/22px "Montserrat",
+    sans-serif
+  );
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 565px;
+}
+.bouton-copy2 {
+  background: #ffe047;
+  border-radius: 64px;
+  padding: 10px 16px 10px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  justify-content: flex-end;
+  width: 194px;
+  height: 40px;
+  position: absolute;
+  left: 0px;
+  top: 320px;
+  overflow: hidden;
+}
+.arrow3 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.phase-04 {
+  opacity: 0.4000000059604645;
+  width: 565px;
+  height: 456px;
+  position: absolute;
+  left: 2055px;
+  top: 0px;
+}
+.step-4 {
+  background: var(--secondaire-light-jaune, #ffe047);
+  border-radius: 232px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+._4 {
+  color: var(--primaire-dark-turquoise-nuance-6, #10322e);
+  text-align: left;
+  font: var(
+    --editorial-desktop-chiffre-cl-32,
+    700 24px/24px "Montserrat",
+    sans-serif
+  );
+  text-transform: uppercase;
+  position: relative;
+}
+.line-dash3 {
+  border-style: dashed;
+  border-color: var(--secondaire-light-jaune, #ffe047);
+  border-width: 2px 0 0 0;
+  width: 615px;
+  height: 0px;
+  position: absolute;
+  left: 70px;
+  top: calc(50% - 208px);
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+.titre-line-14 {
+  width: 565px;
+  height: 40px;
+  position: absolute;
+  left: 0px;
+  top: 64px;
+}
+.phase-4 {
+  color: var(--primaire-light-beige, #f7f3eb);
+  text-align: left;
+  font: var(--titres-desktop-h-4-light, 200 40px/40px "Montserrat", sans-serif);
+  text-transform: uppercase;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 565px;
+}
+.titre-line-24 {
+  width: 565px;
+  height: 40px;
+  position: absolute;
+  left: 0px;
+  top: 104px;
+}
+.tape-1-sources {
+  color: var(--primaire-light-beige, #f7f3eb);
+  text-align: left;
+  font: var(
+    --titres-desktop-h-4-italic-cap,
+    500 italic 40px/40px "Montserrat",
+    sans-serif
+  );
+  text-transform: uppercase;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 565px;
+}
+.descr3 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 565px;
+  position: absolute;
+  left: 0px;
+  top: 168px;
+}
+.permet-de-fournir-le-cahier-des-charges-et-autres-sources-avant-de-commencer-l-analyse-clique-sur-copier-et-coller-dans-une-nouvelle-conversation-avec-jean-michel-une-fois-la-r-ponse-crite-passe-la-phase-4-bis {
+  color: var(--primaire-light-beige, #f7f3eb);
+  text-align: left;
+  font: var(
+    --editorial-desktop-chapo-h-2,
+    400 16px/22px "Montserrat",
+    sans-serif
+  );
+  position: relative;
+  align-self: stretch;
+}
+.formulaire {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 565px;
+  position: absolute;
+  left: 0px;
+  top: 288px;
+}
+.ligne-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.url-cahier-des-charge {
+  background: rgba(255, 255, 255, 0.11);
+  border-style: solid;
+  border-color: var(--primaire-light-beige, #f7f3eb);
+  border-width: 0px 0px 1px 0px;
+  padding: 8px 8px 8px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 7px;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 1;
+  height: 40px;
+  position: relative;
+  backdrop-filter: blur(10px);
+}
+.url-du-cahier-des-charges {
+  color: var(--primaire-light-beige, #f7f3eb);
+  text-align: left;
+  font: var(
+    --microcopie-desktop-imput-formulaire,
+    400 italic 12px/12px "Montserrat",
+    sans-serif
+  );
+  position: relative;
+  flex: 1;
+  height: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.url-source-1 {
+  background: rgba(255, 255, 255, 0.11);
+  border-style: solid;
+  border-color: var(--primaire-light-beige, #f7f3eb);
+  border-width: 0px 0px 1px 0px;
+  padding: 8px 8px 8px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 7px;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 1;
+  height: 40px;
+  position: relative;
+  backdrop-filter: blur(10px);
+}
+.url-source-12 {
+  color: var(--primaire-light-beige, #f7f3eb);
+  text-align: left;
+  font: var(
+    --microcopie-desktop-imput-formulaire,
+    400 italic 12px/12px "Montserrat",
+    sans-serif
+  );
+  position: relative;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.ligne-2 {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.url-source-2 {
+  background: rgba(255, 255, 255, 0.11);
+  border-style: solid;
+  border-color: var(--primaire-light-beige, #f7f3eb);
+  border-width: 0px 0px 1px 0px;
+  padding: 8px 8px 8px 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  height: 40px;
+  position: relative;
+  backdrop-filter: blur(10px);
+}
+.url-source-22 {
+  color: var(--primaire-light-beige, #f7f3eb);
+  text-align: left;
+  font: var(
+    --microcopie-desktop-imput-formulaire,
+    400 italic 12px/12px "Montserrat",
+    sans-serif
+  );
+  position: relative;
+  flex: 1;
+  height: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.url-source-3 {
+  background: rgba(255, 255, 255, 0.11);
+  border-style: solid;
+  border-color: var(--primaire-light-beige, #f7f3eb);
+  border-width: 0px 0px 1px 0px;
+  padding: 8px 8px 8px 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  height: 40px;
+  position: relative;
+  backdrop-filter: blur(10px);
+}
+.url-source-32 {
+  color: var(--primaire-light-beige, #f7f3eb);
+  text-align: left;
+  font: var(
+    --microcopie-desktop-imput-formulaire,
+    400 italic 12px/12px "Montserrat",
+    sans-serif
+  );
+  position: relative;
+  flex: 1;
+  height: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.bouton-copy3 {
+  background: #ffe047;
+  border-radius: 64px;
+  padding: 10px 16px 10px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  justify-content: flex-end;
+  width: 194px;
+  height: 40px;
+  position: absolute;
+  left: 0px;
+  top: 408px;
+  overflow: hidden;
+}
+.arrow4 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.phase-05 {
+  opacity: 0.4000000059604645;
+  width: 565px;
+  height: 338px;
+  position: absolute;
+  left: 2740px;
+  top: 0px;
+}
+.step-5 {
+  background: var(--secondaire-light-jaune, #ffe047);
+  border-radius: 232px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+._5 {
+  color: var(--primaire-dark-turquoise-nuance-6, #10322e);
+  text-align: left;
+  font: var(
+    --editorial-desktop-chiffre-cl-32,
+    700 24px/24px "Montserrat",
+    sans-serif
+  );
+  text-transform: uppercase;
+  position: relative;
+}
+.titre-line-15 {
+  width: 420px;
+  height: 40px;
+  position: absolute;
+  left: 0px;
+  top: 72px;
+}
+.phase-4-bis-slide-1 {
+  color: var(--primaire-light-beige, #f7f3eb);
+  text-align: left;
+  font: var(--titres-desktop-h-4-light, 200 40px/40px "Montserrat", sans-serif);
+  text-transform: uppercase;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.titre-line-25 {
+  width: 434px;
+  height: 40px;
+  position: absolute;
+  left: 0px;
+  top: 112px;
+}
+.contexte-enjeux {
+  color: var(--primaire-light-beige, #f7f3eb);
+  text-align: left;
+  font: var(
+    --titres-desktop-h-4-italic-cap,
+    500 italic 40px/40px "Montserrat",
+    sans-serif
+  );
+  text-transform: uppercase;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.cr-ation-du-contenu-de-la-slide-1-contexte-enjeux-clique-sur-copier-et-coller-dans-une-nouvelle-conversation-avec-jean-michel-une-fois-la-r-ponse-crite-passe-la-phase-4-ter {
+  color: var(--primaire-light-beige, #f7f3eb);
+  text-align: left;
+  font: var(
+    --editorial-desktop-chapo-h-2,
+    400 16px/22px "Montserrat",
+    sans-serif
+  );
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 565px;
+}
+.arrow5 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.phase-06 {
+  opacity: 0.4000000059604645;
+  width: 565px;
+  height: 338px;
+  position: absolute;
+  left: 3425px;
+  top: 0px;
+}
+.step-6 {
+  background: var(--secondaire-light-jaune, #ffe047);
+  border-radius: 232px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+._6 {
+  color: var(--primaire-dark-turquoise-nuance-6, #10322e);
+  text-align: left;
+  font: var(
+    --editorial-desktop-chiffre-cl-32,
+    700 24px/24px "Montserrat",
+    sans-serif
+  );
+  text-transform: uppercase;
+  position: relative;
+}
+.titre-line-16 {
+  width: 438px;
+  height: 40px;
+  position: absolute;
+  left: 0px;
+  top: 72px;
+}
+.phase-4-ter-slide-2 {
+  color: var(--primaire-light-beige, #f7f3eb);
+  text-align: left;
+  font: var(--titres-desktop-h-4-light, 200 40px/40px "Montserrat", sans-serif);
+  text-transform: uppercase;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.titre-line-26 {
+  width: 390px;
+  height: 40px;
+  position: absolute;
+  left: 0px;
+  top: 112px;
+}
+.cibles-acteurs {
+  color: var(--primaire-light-beige, #f7f3eb);
+  text-align: left;
+  font: var(
+    --titres-desktop-h-4-italic-cap,
+    500 italic 40px/40px "Montserrat",
+    sans-serif
+  );
+  text-transform: uppercase;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.cr-ation-du-contenu-de-la-slide-2-cibles-acteurs-clique-sur-copier-et-coller-dans-une-nouvelle-conversation-avec-jean-michel-une-fois-la-r-ponse-crite-passe-la-phase-3 {
+  color: var(--primaire-light-beige, #f7f3eb);
+  text-align: left;
+  font: var(
+    --editorial-desktop-chapo-h-2,
+    400 16px/22px "Montserrat",
+    sans-serif
+  );
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 565px;
+}
+.arrow6 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.phase-07 {
+  opacity: 0.4000000059604645;
+  width: 565px;
+  height: 338px;
+  position: absolute;
+  left: 4110px;
+  top: 0px;
+}
+.step-7 {
+  background: var(--secondaire-light-jaune, #ffe047);
+  border-radius: 232px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+._7 {
+  color: var(--primaire-dark-turquoise-nuance-6, #10322e);
+  text-align: left;
+  font: var(
+    --editorial-desktop-chiffre-cl-32,
+    700 24px/24px "Montserrat",
+    sans-serif
+  );
+  text-transform: uppercase;
+  position: relative;
+}
+.phase-5 {
+  color: var(--primaire-light-beige, #f7f3eb);
+  text-align: left;
+  font: var(--titres-desktop-h-4-light, 200 40px/40px "Montserrat", sans-serif);
+  text-transform: uppercase;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.titre-line-27 {
+  width: 168px;
+  height: 40px;
+  position: absolute;
+  left: 0px;
+  top: 112px;
+}
+.tape-2 {
+  color: var(--primaire-light-beige, #f7f3eb);
+  text-align: left;
+  font: var(
+    --titres-desktop-h-4-italic-cap,
+    500 italic 40px/40px "Montserrat",
+    sans-serif
+  );
+  text-transform: uppercase;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.recherche-et-analyse-des-probl-matique-attentes-clique-sur-copier-et-coller-dans-une-nouvelle-conversation-avec-jean-michel-une-fois-la-r-ponse-crite-passe-la-phase-3 {
+  color: var(--primaire-light-beige, #f7f3eb);
+  text-align: left;
+  font: var(
+    --editorial-desktop-chapo-h-2,
+    400 16px/22px "Montserrat",
+    sans-serif
+  );
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 565px;
+}
+.arrow7 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.phase-08 {
+  opacity: 0.4000000059604645;
+  width: 565px;
+  height: 378px;
+  position: absolute;
+  left: 4795px;
+  top: 0px;
+}
+.step-8 {
+  background: var(--secondaire-light-jaune, #ffe047);
+  border-radius: 232px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+._8 {
+  color: var(--primaire-dark-turquoise-nuance-6, #10322e);
+  text-align: left;
+  font: var(
+    --editorial-desktop-chiffre-cl-32,
+    700 24px/24px "Montserrat",
+    sans-serif
+  );
+  text-transform: uppercase;
+  position: relative;
+}
+.line-dash4 {
+  border-style: dashed;
+  border-color: var(--secondaire-light-jaune, #ffe047);
+  border-width: 2px 0 0 0;
+  width: 615px;
+  height: 0px;
+  position: absolute;
+  left: 70px;
+  top: calc(50% - 169px);
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+.titre-line-17 {
+  width: 565px;
+  height: 40px;
+  position: absolute;
+  left: 0px;
+  top: 72px;
+}
+.phase-5-bis-slide-3 {
+  color: var(--primaire-light-beige, #f7f3eb);
+  text-align: left;
+  font: var(--titres-desktop-h-4-light, 200 40px/40px "Montserrat", sans-serif);
+  text-transform: uppercase;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 565px;
+}
+.titre-line-28 {
+  width: 565px;
+  height: 80px;
+  position: absolute;
+  left: 0px;
+  top: 112px;
+}
+.probl-matiques-attentes {
+  color: var(--primaire-light-beige, #f7f3eb);
+  text-align: left;
+  font: var(
+    --titres-desktop-h-4-italic-cap,
+    500 italic 40px/40px "Montserrat",
+    sans-serif
+  );
+  text-transform: uppercase;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 565px;
+}
+.descr4 {
+  width: 565px;
+  height: 74px;
+  position: absolute;
+  left: 0px;
+  top: 224px;
+}
+.cr-ation-du-contenu-de-la-slide-3-probl-matiques-attentes-clique-sur-copier-et-coller-dans-une-nouvelle-conversation-avec-jean-michel-une-fois-la-r-ponse-crite-passe-la-phase-3 {
+  color: var(--primaire-light-beige, #f7f3eb);
+  text-align: left;
+  font: var(
+    --editorial-desktop-chapo-h-2,
+    400 16px/22px "Montserrat",
+    sans-serif
+  );
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 565px;
+}
+.bouton-copy4 {
+  background: #ffe047;
+  border-radius: 64px;
+  padding: 10px 16px 10px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  justify-content: flex-end;
+  width: 194px;
+  height: 40px;
+  position: absolute;
+  left: 0px;
+  top: 330px;
+  overflow: hidden;
+}
+.arrow8 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.phase-09 {
+  opacity: 0.4000000059604645;
+  width: 565px;
+  height: 378px;
+  position: absolute;
+  left: 5480px;
+  top: 0px;
+}
+.step-9 {
+  background: var(--secondaire-light-jaune, #ffe047);
+  border-radius: 232px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+._9 {
+  color: var(--primaire-dark-turquoise-nuance-6, #10322e);
+  text-align: left;
+  font: var(
+    --editorial-desktop-chiffre-cl-32,
+    700 24px/24px "Montserrat",
+    sans-serif
+  );
+  text-transform: uppercase;
+  position: relative;
+}
+.phase-5-ter-slide-4 {
+  color: var(--primaire-light-beige, #f7f3eb);
+  text-align: left;
+  font: var(--titres-desktop-h-4-light, 200 40px/40px "Montserrat", sans-serif);
+  text-transform: uppercase;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 565px;
+}
+.perception-croyances {
+  color: var(--primaire-light-beige, #f7f3eb);
+  text-align: left;
+  font: var(
+    --titres-desktop-h-4-italic-cap,
+    500 italic 40px/40px "Montserrat",
+    sans-serif
+  );
+  text-transform: uppercase;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 565px;
+}
+.cr-ation-du-contenu-de-la-slide-4-perception-croyances-clique-sur-copier-et-coller-dans-une-nouvelle-conversation-avec-jean-michel-une-fois-la-r-ponse-crite-passe-la-phase-3 {
+  color: var(--primaire-light-beige, #f7f3eb);
+  text-align: left;
+  font: var(
+    --editorial-desktop-chapo-h-2,
+    400 16px/22px "Montserrat",
+    sans-serif
+  );
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 565px;
+}
+.arrow9 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.phase-10 {
+  opacity: 0.4000000059604645;
+  width: 565px;
+  height: 338px;
+  position: absolute;
+  left: 6165px;
+  top: 0px;
+}
+.step-10 {
+  background: var(--secondaire-light-jaune, #ffe047);
+  border-radius: 232px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+._10 {
+  color: var(--primaire-dark-turquoise-nuance-6, #10322e);
+  text-align: left;
+  font: var(
+    --editorial-desktop-chiffre-cl-32,
+    700 24px/24px "Montserrat",
+    sans-serif
+  );
+  text-transform: uppercase;
+  position: relative;
+}
+.phase-6 {
+  color: var(--primaire-light-beige, #f7f3eb);
+  text-align: left;
+  font: var(--titres-desktop-h-4-light, 200 40px/40px "Montserrat", sans-serif);
+  text-transform: uppercase;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 565px;
+}
+.titre-line-29 {
+  width: 565px;
+  height: 40px;
+  position: absolute;
+  left: 0px;
+  top: 112px;
+}
+.tape-3 {
+  color: var(--primaire-light-beige, #f7f3eb);
+  text-align: left;
+  font: var(
+    --titres-desktop-h-4-italic-cap,
+    500 italic 40px/40px "Montserrat",
+    sans-serif
+  );
+  text-transform: uppercase;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 565px;
+}
+.recherche-et-construction-de-solutions-viables-efficaces-clique-sur-copier-et-coller-dans-une-nouvelle-conversation-avec-jean-michel-une-fois-la-r-ponse-crite-passe-la-phase-3 {
+  color: var(--primaire-light-beige, #f7f3eb);
+  text-align: left;
+  font: var(
+    --editorial-desktop-chapo-h-2,
+    400 16px/22px "Montserrat",
+    sans-serif
+  );
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 565px;
+}
+.arrow10 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.phase-11 {
+  opacity: 0.4000000059604645;
+  width: 565px;
+  height: 378px;
+  position: absolute;
+  left: 6850px;
+  top: 0px;
+}
+.step-11 {
+  background: var(--secondaire-light-jaune, #ffe047);
+  border-radius: 232px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+._11 {
+  color: var(--primaire-dark-turquoise-nuance-6, #10322e);
+  text-align: left;
+  font: var(
+    --editorial-desktop-chiffre-cl-32,
+    700 24px/24px "Montserrat",
+    sans-serif
+  );
+  text-transform: uppercase;
+  position: relative;
+}
+.phase-6-bis-slide-5 {
+  color: var(--primaire-light-beige, #f7f3eb);
+  text-align: left;
+  font: var(--titres-desktop-h-4-light, 200 40px/40px "Montserrat", sans-serif);
+  text-transform: uppercase;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 565px;
+}
+.solutions-viables-efficaces {
+  color: var(--primaire-light-beige, #f7f3eb);
+  text-align: left;
+  font: var(
+    --titres-desktop-h-4-italic-cap,
+    500 italic 40px/40px "Montserrat",
+    sans-serif
+  );
+  text-transform: uppercase;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 565px;
+}
+.cr-ation-du-contenu-de-la-slide-5-solutions-viables-efficaces-clique-sur-copier-et-coller-dans-une-nouvelle-conversation-avec-jean-michel-une-fois-la-r-ponse-crite-passe-la-phase-3 {
+  color: var(--primaire-light-beige, #f7f3eb);
+  text-align: left;
+  font: var(
+    --editorial-desktop-chapo-h-2,
+    400 16px/22px "Montserrat",
+    sans-serif
+  );
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 565px;
+}
+.arrow11 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.phase-12 {
+  opacity: 0.4000000059604645;
+  width: 565px;
+  height: 378px;
+  position: absolute;
+  left: 7535px;
+  top: 0px;
+}
+.step-12 {
+  background: var(--secondaire-light-jaune, #ffe047);
+  border-radius: 232px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+._12 {
+  color: var(--primaire-dark-turquoise-nuance-6, #10322e);
+  text-align: left;
+  font: var(
+    --editorial-desktop-chiffre-cl-32,
+    700 24px/24px "Montserrat",
+    sans-serif
+  );
+  text-transform: uppercase;
+  position: relative;
+}
+.phase-7-slide-6 {
+  color: var(--primaire-light-beige, #f7f3eb);
+  text-align: left;
+  font: var(--titres-desktop-h-4-light, 200 40px/40px "Montserrat", sans-serif);
+  text-transform: uppercase;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 565px;
+}
+.introduction-aux-pistes-cr-atives {
+  color: var(--primaire-light-beige, #f7f3eb);
+  text-align: left;
+  font: var(
+    --titres-desktop-h-4-italic-cap,
+    500 italic 40px/40px "Montserrat",
+    sans-serif
+  );
+  text-transform: uppercase;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 565px;
+}
+.cr-ation-du-contenu-de-la-slide-6-introduction-aux-pistes-cr-atives-clique-sur-copier-et-coller-dans-une-nouvelle-conversation-avec-jean-michel-une-fois-la-r-ponse-crite-passe-la-phase-3 {
+  color: var(--primaire-light-beige, #f7f3eb);
+  text-align: left;
+  font: var(
+    --editorial-desktop-chapo-h-2,
+    400 16px/22px "Montserrat",
+    sans-serif
+  );
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 565px;
+}
+.arrow12 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.logo {
+  padding: 24px 16px 24px 16px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.success {
+  background: var(--primaire-light-turquoise, #48ddc9);
+  padding: 24px 16px 24px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  width: 762px;
+  position: absolute;
+  left: calc(50% - 381px);
+  top: 0px;
+}
+.text-notif-success {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  position: relative;
+}
+.phase-copi-e-direction-jean-michel {
+  color: var(--pattern-topographie, linear-gradient(to left, #184a44, #184a44));
+  text-align: left;
+  font: var(
+    --editorial-desktop-chapo-h-1,
+    400 18px/34px "Montserrat",
+    sans-serif
+  );
+  position: relative;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.bouton-close {
+  border-radius: 1416px;
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.notif-fail {
+  background: var(--secondaire-light-rouge, #ff7a7a);
+  padding: 24px 16px 24px 16px;
+  width: 762px;
+  height: 82px;
+  position: absolute;
+  left: calc(50% - 381px);
+  top: 0px;
+}
+.text-notif-fail {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  width: 698px;
+  position: absolute;
+  left: 16px;
+  top: 24px;
+}
+.il-faut-d-abord-utiliser-sur-la-phase-actuelle {
+  color: var(--pattern-topographie, linear-gradient(to left, #184a44, #184a44));
+  text-align: left;
+  font: 400 18px/34px "Montserrat", sans-serif;
+  position: relative;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.bouton-close2 {
+  border-radius: 1416px;
+  padding: 8px;
+  position: absolute;
+  left: 722px;
+  top: 29px;
+  overflow: visible;
+}
